@@ -1,8 +1,26 @@
 {
-  "name": "hardhat-project",
-  "devDependencies": {
-    "@nomiclabs/hardhat-truffle5": "^2.0.3",
-    "@nomiclabs/hardhat-web3": "^2.0.0",
-    "web3": "^1.7.0"
+  "name": "alphamechadao",
+  "version": "1.0.0",
+  "description": "Website for Alpha Mecha DAO",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nervil423/AlphaMechaDAO.git"
+  },
+  "author": "Nervil423",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nervil423/AlphaMechaDAO/issues"
+  },
+  "homepage": "https://github.com/Nervil423/AlphaMechaDAO#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "pug": "^3.0.2"
   }
 }

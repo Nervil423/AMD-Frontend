@@ -2,12 +2,19 @@ import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/thr
 import { GLTFLoader } from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/controls/OrbitControls.js';
 import { RoundedBoxGeometry } from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/geometries/RoundedBoxGeometry.js';
+import './style.css'
+
+// Setup
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-const renderer = new THREE.WebGLRenderer();
+const renderer = new THREE.WebGLRenderer({
+    canvas: document.querySelector('#bg')
+});
 const loader = new GLTFLoader();
 const controls = new OrbitControls(camera, renderer.domElement);
+renderer.setSize(window.innerWidth, window.innerHeight);
+camera.position.set(10, 0, 140);
 
 
 //lights
@@ -66,8 +73,8 @@ loader.load('/metaman300.glb',
 //everything else
 scene.background = new THREE.Color('0xffffff');
 
-renderer.setSize(window.innerWidth, window.innerHeight);
-camera.position.set(10, 0, 140);
+
+
 document.body.appendChild(renderer.domElement);
 
 function animate() {
