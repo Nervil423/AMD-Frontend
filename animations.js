@@ -71,7 +71,7 @@ loader.load('/metaman300.glb',
 
 
 //everything else
-scene.background = new THREE.Color('0xffffff');
+scene.background = new THREE.Color('0x000000');
 
 
 
