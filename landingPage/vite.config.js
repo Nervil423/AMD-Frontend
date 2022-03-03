@@ -1,5 +1,3 @@
 export default {
-    server: {
-        port: 80
-    }
+    base: 'http://localhost:80/'
 }
