@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.red{
+    color: red;
+}
+
+.dark-red{
+    color: rgb(199, 0, 0);
+}
