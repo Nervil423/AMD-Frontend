@@ -57,3 +57,6 @@ config.codekit3
 .sass-cache/
 *.css.map
 .vercel
+
+### VS Code ###
+.vscode
