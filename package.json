@@ -1,31 +1,17 @@
 {
-  "name": "alphamechadao",
-  "version": "1.0.0",
-  "description": "Website for Alpha Mecha DAO",
-  "main": "index.js",
+  "name": "landingpage",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "test",
-    "dev": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nervil423/AlphaMechaDAO.git"
-  },
-  "author": "Nervil423",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Nervil423/AlphaMechaDAO/issues"
-  },
-  "homepage": "https://github.com/Nervil423/AlphaMechaDAO#readme",
-  "dependencies": {
-    "express": "^4.17.3",
-    "fs": "^0.0.1-security",
-    "http": "^0.0.1-security",
-    "pug": "^3.0.2"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.8",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.0.23",
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "@vite/vitejs": "^2.3.17"
   }
 }
