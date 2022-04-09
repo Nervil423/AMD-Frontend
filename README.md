@@ -14,8 +14,10 @@ To install server software globally
 
 To start server on default browser
 
-
-The index.html file holds all of the html and three.js code
-
+## How to make edits to the site
+To edit the website open the index.html file and make your changes.<br/>
+To edit the styles of the site open and change /assets/css/main.css <br/>
+To change the JS of the site open and change /assests/js/functions.js <br/>
+All of the sites assets are held in /assets/img/
   
-The metaman300.glb is the 3d file for mesh/material of mecha
+
