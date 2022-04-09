@@ -279,8 +279,7 @@ body {
 }
 
 body {
-    background: rgb(11, 1, 255);
-    background: linear-gradient(90deg, rgba(11, 1, 255, 1) 0%, rgba(16, 121, 9, 1) 46%, rgba(0, 255, 250, 1) 100%);
+    background: black;
     font-size: 14px;
     line-height: 1.6;
     font-family: "Montserrat", sans-serif;
@@ -809,7 +808,7 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #1b1b1b;
+    color: #9b9b9b;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
@@ -915,6 +914,10 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0 auto
+}
+
+.work p {
+    text-align: center;
 }
 
 @media (max-width: 1180px) {
@@ -1245,17 +1248,6 @@ body {
     background-repeat: no-repeat
 }
 
-.about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
-}
-
-.about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
-}
-
-.about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
-}
 
 .about--options>a:hover h3 {
     bottom: -50px
@@ -1305,6 +1297,15 @@ body {
     }
 }
 
+@media (max-width: 800px) {
+
+    .about--banner img {
+        width: 350px;
+        padding-bottom: 50px;
+        
+    }
+}
+
 @media (max-width: 600px) {
     .about--banner {
         height: auto
@@ -1331,7 +1332,7 @@ body {
         display: none
     }
     .about--options {
-        display: none
+        font-size: smaller;
     }
 }
 
@@ -1366,26 +1367,40 @@ body {
     margin: 0 auto
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 2000px) {
     .contact--lockup {
         max-width: 90%
+
+    }
+    .contact--lockup img {
+        width: 500px;
+        border-style: none none solid none;
+        border-width: 1px;
+        border-color: #ffffff;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
     .contact--lockup {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center
     }
+    .contact--lockup img {
+        display: none;
+    }
+}
+
+.modal h2 {
+    font-size: 40px;
 }
 
 .contact--lockup .modal {
     padding: 45px 45px;
     text-align: center;
-    background-color: #0c0c0c;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75)
+
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.75);
 }
 
 .contact--lockup .modal--information p,

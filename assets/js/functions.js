@@ -186,10 +186,13 @@ $( document ).ready(function() {
           curCenterPos = $('.slider').children().index(curCenter),
           curRight = $('.slider').find('.slider--item-right'),
           curRightPos = $('.slider').children().index(curRight),
+
+
           totalWorks = $('.slider').children().length,
           $left = $('.slider--item-left'),
           $center = $('.slider--item-center'),
           $right = $('.slider--item-right'),
+          $right = $('.slider--item-right-right'),
           $item = $('.slider--item');
 
       $('.slider').animate({ opacity : 0 }, 400);

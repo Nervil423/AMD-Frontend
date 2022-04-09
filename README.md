@@ -1,6 +1,8 @@
-# AMD
-Website for Alpha Mecha DAO
+# Alpha Mecha DAO Website 
 
+[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Ftimlrxx)](https://twitter.com/AlphaMechaDAO)
+
+This is a website created with HTML, JavaScript, CSS and SASS
 
 Use command
 
