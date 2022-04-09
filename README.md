@@ -15,9 +15,9 @@ To install server software globally
 To start server on default browser
 
 ## How to make edits to the site
-To edit the website open the index.html file and make your changes.<br/>
-To edit the styles of the site open and change /assets/css/main.css <br/>
-To change the JS of the site open and change /assests/js/functions.js <br/>
+To edit the website open the index.html file and make your changes.<br/><br/>
+To edit the styles of the site open and change /assets/css/main.css <br/><br/>
+To change the JS of the site open and change /assests/js/functions.js <br/><br/>
 All of the sites assets are held in /assets/img/
   
 
