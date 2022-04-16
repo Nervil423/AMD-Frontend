@@ -1347,6 +1347,14 @@ body {
     background-repeat: no-repeat
 }
 
+.contact p {
+    font-size: medium;
+}
+
+.contact h2 {
+    font-size: 25px;
+}
+
 .contact--lockup {
     position: relative;
     display: -webkit-box;
@@ -1392,8 +1400,9 @@ body {
     }
 }
 
-.modal h2 {
-    font-size: 40px;
+
+.contact h1 {
+    font-size: 50px;
 }
 
 .contact--lockup .modal {
@@ -1477,10 +1486,25 @@ body {
     }
 }
 
+.hire h1 {
+
+    margin: 0 0 20px 0;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .hire h2 {
+
     margin: 0 0 20px 0;
     font-size: 30px;
     text-align: center
+}
+
+.hire p {
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .work-request {
@@ -1715,7 +1739,7 @@ body {
     perspective: 1500px
 }
 
-.container {
+.container1 {
     position: relative;
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
@@ -1727,7 +1751,7 @@ body {
     transition: transform .4s, -webkit-transform .4s
 }
 
-.modalview .container {
+.modalview .container1 {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1736,7 +1760,7 @@ body {
     backface-visibility: hidden
 }
 
-.effect-rotate-left .container {
+.effect-rotate-left .container1 {
     -webkit-transform-origin: 0% 50%;
     transform-origin: 0% 50%;
     -webkit-transition: -webkit-transform .4s;
@@ -1745,7 +1769,7 @@ body {
     transition: transform .4s, -webkit-transform .4s
 }
 
-.effect-rotate-left--animate .container {
+.effect-rotate-left--animate .container1 {
     -webkit-transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     transform: translateZ(-1800px) translateX(-50%) rotateY(45deg);
     outline: 30px solid #0f33ff
