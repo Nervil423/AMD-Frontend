@@ -1353,6 +1353,8 @@ body {
 
 .contact h2 {
     font-size: 25px;
+    border-bottom-style: solid;
+
 }
 
 .contact--lockup {
@@ -1403,6 +1405,7 @@ body {
 
 .contact h1 {
     font-size: 50px;
+    border-bottom: #ffffff;
 }
 
 .contact--lockup .modal {
