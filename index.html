@@ -170,18 +170,44 @@
                                             FAQ
                                         </h1>
 
-                                        <p>
-                                        <h2>WEN MINT?</h2>
-                                        <p> MINT TBD… STAY TUNED IN DISCORD AND TWITTER</p>
-                                        <h2>MINT PRICE?</h2>
-                                        <p> 3 AVAX</p>
-                                        <h2>WHAT ARE ALPHA MECHAS?</h2> <p>
-                                            Alpha Mechas are a collection of 1,000 3D NFTs on the Avalanche
-                                            Blockchain.<br />
-                                            They hail from
-                                            deep intergalactic space, and infiltrated the Avalanche Blockchain in search
-                                            of the best alpha.</p>
-                                        </p>
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn" > What does backing my nft mean?  </button>
+                                            <div id="myDropdown1" class="dropdown-content">
+                                                <a href="#">
+                                                    Each Alpha Mecha is backed by a portional fraction of the assets inside 
+                                                    the treasury (1/1000 of each asset to be exact). Though, not all of the treasury 
+                                                    will be backed by the complete treasury, since we will vote on how each of the assets 
+                                                    are handled, and some will be allocated to have the option to be liquidated by the owner, 
+                                                    or used specifically to make future investments.</a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn">How will minting work?</button>
+                                            <div id="myDropdown2" class="dropdown-content">
+                                                <a href="#">
+                                                    This is a whitelist only project. Details of how to attain an exclusive 
+                                                    whitelist spot can be found on the "How do I whitelist" section of the FAQ. Mint 
+                                                    price TBD, and will be announced on our Discord and Twitter when available. 
+                                                    1/3 of minting funds will go straight to be backing for the treasury fund.
+                                                    </a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="dropdown">
+                                            <button onclick="myFunction()" class="dropbtn">How do I whitelist?</button>
+                                            <div id="myDropdown3" class="dropdown-content">
+                                                <a href="#">
+                                                    We want to be sure we are creating a project with a community 
+                                                    as fanatical about making plays as we are. In order to do this, we decided this 
+                                                    could only be a whitelist only project, and to have different methods/activities 
+                                                    to select people. We will announce opportunitys to get WL spots in our 
+                                                    Discord and Twitter.</a>
+
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -318,6 +344,37 @@
         window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
     </script>
     <script src="assets/js/functions-min.js"></script>
+
+
+    <script>  /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown1").classList.toggle("show");
+        }
+
+        function myFunction() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+
+        function myFunction() {
+            document.getElementById("myDropdown3").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        } 
+    </script>
+
+
 </body>
 
 </html>

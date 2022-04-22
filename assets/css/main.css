@@ -1344,7 +1344,8 @@ body {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+
 }
 
 .contact p {
@@ -1374,7 +1375,8 @@ body {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    margin: 0 auto
+    margin: 0 auto;
+
 }
 
 @media (max-width: 2000px) {
@@ -1887,3 +1889,43 @@ body {
     -webkit-transition-delay: .16s;
     transition-delay: .16s
 }
+
+.dropbtn {
+    background-color: #2768bd;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    font-style: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #2768bd;}
