@@ -1937,13 +1937,16 @@ body {
 
 
 .accordionMenu{
+    border-radius: 10px;
     width: 500px;
     margin: 0 auto;
 }
 .accordionMenu input[type=radio]{
+    border-radius: 10px;
     display: none;
 }
 .accordionMenu label{
+    border-radius: 10px;
     background: #1a2b36;
     font-size: 18px;
     color: #fff;
@@ -1957,6 +1960,7 @@ body {
 }
 
 .accordionMenu label::after{
+    border-radius: 10px;
     display: block;
     content: "";
    border-style: solid;
@@ -1975,6 +1979,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 .accordionMenu .content{
+    border-radius: 10px;
     max-height: 0;
     height: 0;
     overflow: hidden;
@@ -1984,6 +1989,7 @@ body {
     transition: all 2s ease-in-out;
 }
 .accordionMenu .content .inner{
+    border-radius: 10px;
     font-size: 1.0rem;
     color: #000000;
     line-height: 1.5;
@@ -1992,6 +1998,7 @@ body {
 }
 
 .accordionMenu input[type=radio]:checked + label:after{
+    border-radius: 10px;
     -moz-transform: rotate(90deg);
      -ms-transform: rotate(90deg);
      -o-transform: rotate(90deg);
@@ -2000,6 +2007,7 @@ body {
  }
   
  .accordionMenu input[type=radio]:checked + label + .content{
+    border-radius: 10px;
      max-height: 2000px;
      height: auto;
  }
