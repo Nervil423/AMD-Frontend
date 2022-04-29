@@ -597,6 +597,7 @@ body {
 }
 
 .side-nav {
+    border: #c0c0c0;
     position: relative;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1138,29 +1139,8 @@ body {
     height: 475px
 }
 
-.about--banner::before {
-    content: "";
-    position: absolute;
-    top: 20px;
-    left: 200px;
-    -webkit-transform: rotate(-25deg);
-    transform: rotate(-25deg);
-    border: 5px solid #0f33ff;
-    border-right-color: transparent;
-    border-bottom-color: transparent
-}
 
-.about--banner::after {
-    content: "";
-    position: absolute;
-    top: 75px;
-    left: 400px;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    width: 10px;
-    height: 10px;
-    background-color: #0f33ff
-}
+
 
 .about--banner h2 {
     position: relative;
@@ -1172,26 +1152,7 @@ body {
     z-index: 1
 }
 
-.about--banner h2::before {
-    content: "";
-    position: absolute;
-    top: 60px;
-    left: 268px;
-    width: 30px;
-    height: 30px;
-    background-color: #0f33ff;
-    border-radius: 50%
-}
 
-.about--banner h2::after {
-    content: "";
-    position: absolute;
-    top: 255px;
-    left: 255px;
-    width: 10px;
-    height: 10px;
-    background-color: #0f33ff
-}
 
 .about--banner a {
     padding: 5px 17px 5px 0;
@@ -1254,8 +1215,8 @@ body {
 }
 
 .about--options h1 {
-    font-size: 17px;
-    bottom: 50px;
+    font-size: 20px;
+    bottom: 10px;
 }
 
 .about--options h3 {
@@ -1380,7 +1341,7 @@ body {
 
 }
 
-@media (max-width: 2000px) {
+@media (min-width: 1200px) {
     .contact--lockup {
         max-width: 90%
 
@@ -2000,14 +1961,14 @@ body {
 .accordionMenu input[type=radio]:checked + label:after{
     border-radius: 10px;
     -moz-transform: rotate(90deg);
-     -ms-transform: rotate(90deg);
-     -o-transform: rotate(90deg);
-     -webkit-transform: rotate(90deg);
-     transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
  }
   
  .accordionMenu input[type=radio]:checked + label + .content{
     border-radius: 10px;
-     max-height: 2000px;
-     height: auto;
+    max-height: 2000px;
+    height: auto;
  }
