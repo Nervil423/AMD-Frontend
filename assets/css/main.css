@@ -315,7 +315,7 @@ body {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center
+    align-items: center;
 }
 
 .l-side-nav::before {
@@ -1136,7 +1136,8 @@ body {
 
 .about--banner {
     position: relative;
-    height: 475px
+    height: 200px;
+
 }
 
 
@@ -1149,7 +1150,8 @@ body {
     padding-top: 50px;
     font-weight: 1000;
     line-height: 1;
-    z-index: 1
+    z-index: 1;
+
 }
 
 
@@ -1217,6 +1219,7 @@ body {
 .about--options h1 {
     font-size: 20px;
     bottom: 10px;
+    
 }
 
 .about--options h3 {
@@ -1908,7 +1911,7 @@ body {
 }
 .accordionMenu label{
     border-radius: 10px;
-    background: #1a2b36;
+    background: #002efd;
     font-size: 18px;
     color: #fff;
     position: relative;
